@@ -9,8 +9,8 @@
     "watch": "ncc build index.js --watch --minify"
   },
   "dependencies": {
-    "@actions/core": "^1.5.0",
-    "@actions/github": "^5.0.0",
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
     "btoa": "^1.2.1",
     "node-fetch": "^2.6.1",
     "yaml": "^1.10.2"
@@ -18,5 +18,16 @@
   "devDependencies": {
     "@vercel/ncc": "^0.30.0",
     "eslint": "^7.32.0"
-  }
+  },
+  "description": "Find issue type name with key.  It is useful when each issue type has different workflows.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-mcluckie/jira-issue-type.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/al-mcluckie/jira-issue-type/issues"
+  },
+  "homepage": "https://github.com/al-mcluckie/jira-issue-type#readme"
 }
